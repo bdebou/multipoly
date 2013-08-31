@@ -1,0 +1,238 @@
+body{
+	width: 1000px;
+	height: auto;
+	/*background: #3c9939;*/
+	background: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px #000000 solid;
+	padding: 10px;
+}
+/*div{position: absolute;}*/
+*{font-size: 15px;}
+div.login{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background: #0AA92E;
+	border: 2px #000000 solid;
+	float: left;
+}
+div.login table{
+	border: none;
+	width: 200px;
+}
+div.login td, tr{
+	border: none;
+	/*text-align: center;*/
+}
+div.login  fieldset{
+	width: 162px;
+	margin: 0px;
+}
+div.login p{
+	text-align: center;
+}
+div.loginstatus{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 150px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #ff0000;
+	border: 2px #000000 solid;
+	float: left;
+}
+div.loginstatus table, td{
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+	line-height: 100%;
+}
+div.proprietes{
+	float: left;
+	padding: 4px;
+	position: relative;
+	left: 10px;
+	top: 0px;
+	width: 760px;
+	height: 85px;
+	background: #ffffff;
+	border: 2px #000000 solid;
+}
+div.menu{
+	float: left;
+	padding: 3px;
+	position: relative;
+	left: 10px;
+	top: 5px;
+	width: 763px;
+	height: 50px;
+	background: #ffffff;
+	border: 2px #000000 solid;
+}
+div.menu-bt{
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 2px;
+	width: 120px;
+	height: 20px;
+	background: #ffff80;
+	border-width: 2px;
+	border-style: outset;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+}
+div.menu-rss{
+	float: right;
+	width: 50px;
+	height: 20px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+	padding-top: 3px;
+	text-align: center;
+}
+div.plateau{
+	position: relative;
+	top: 10px;
+	left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+div.main{
+	clear: both;
+	position: relative;
+	top: 10px;
+	min-height: 400px;
+	background: #ffffff;
+	border: 2px #000000 solid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+div.maison{
+	height: 20px;
+	width: 20px;
+	float: left;
+	border: 1px #000000 solid;
+	margin: 2px;
+	background: #008000;
+}
+div.hotel{
+	height: 20px;
+	width: 100px;
+	margin: 2px;
+	float: left;
+	background: #ff0000;
+	border: 1px #000000 solid;
+}
+div.version{
+	position: relative;
+	margin-top: 20px;
+}
+div.version table{
+	padding: 5px;
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+	width: 100px;
+	height: 20px;
+	font-size: 10px;
+}
+div.pub_index{
+	position:absolute;
+	bottom: 10px;
+	right: 10px;
+}
+div.pub_scores{
+	float: left;
+	height: 100px;
+	position:absolute;
+	bottom: 10px;
+	left: 50px;
+	
+}
+p.propriete{
+	text-decoration: underline;
+	text-align:left;
+}
+table{
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+}
+table th{
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+	text-align: center;
+	text-transform: Capitalize;
+}
+table.possession{
+	width: 100%;
+}
+table.historic{
+	width: 100%;
+}
+table.historic td{
+	padding:0px;
+}
+table.scores{
+	width: 100%;
+	/*text-align: center;*/
+}
+table.scores tr{
+	vertical-align: top;
+}
+
+
+h1{
+	font-size:24px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: capitalize;
+}
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+p.c{text-align: center;}
+p.gagnant{}
+p.ruine{}
+p.hypotheque{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	color: #ffffff;
+	background: #808080;
+	text-align: center;
+	width: 300px;
+	height: 22px;
+}
+p.avendre{
+	font-size: 10px;
+	border-top: 2px #000000 solid;
+	background: #ff8040;
+	border-bottom: 2px #000000 solid;
+}
+p.loye{
+	clear: left;
+	font-size: 10px;
+	text-align: left;
+}
+div.case{
+	float: left;
+	border: 1px #000000 solid;
+	width: 65px;
+	height: 80px;
+	text-align: center;
+	margin: 1px;
+}

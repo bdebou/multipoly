@@ -1,0 +1,87 @@
+div.login{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background: #0AA92E;
+	border: 2px #000000 solid;
+	float: left;
+}
+div.login fieldset{
+	width: 150px;
+	margin: 10px;
+}
+div.login p{
+	text-align: center;
+}
+div.loginstatus{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 150px;
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #ff0000;
+	border: 2px #000000 solid;
+	float: left;
+}
+div.loginstatus table, td{
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+	line-height: 100%;
+}
+div.main{
+	clear: both;
+	position: relative;
+	top: 10px;
+	height: 400px;
+	width: 1094px;
+	background: #ffffff;
+	border: 2px #000000 solid;
+	padding: 5px;
+}
+div.menu{
+	float: left;
+	position: relative;
+	background: #332233;
+	padding: 5px;
+	width: 150px;
+}
+div.menu-titre{
+	background: #fffff0;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 2px #332233 solid;
+	padding : 5px;
+}
+div.menu-elements{
+	background: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+div.result{
+	float: left;
+	margin-left:10px;
+	margin-right: 10px;
+	padding: 5px;
+	border: 2px solid;
+	width: 900px;
+}
+table{
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+}
+table th{
+	border-collapse: collapse;
+	border: 1px #000000 solid;
+	text-align: center;
+	text-transform: Capitalize;
+}
+p.c{text-align: center;}
